@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospeado em meu próprio servidor</p>
+
+    <video controls loop width="560" poster="imagens/thumb.png">
+        <source src="midia/juca-p.mp4" type="video/mp4 ">
+        <source src="midia/juca-p.m4v" type="video/mp4">
+        <source src="midia/juca-p.webm" type="video/webm">
+        <source src="midia/juca-p.ogb" type="video/ogv">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+
+    <h1>Inserindo vídeos do Youtube</h1>
+    <p>Este vídeo está hospaedo em um serviço externo (YouTube)</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Z0gbzDmlbJU?si=y4sJ2C222ZEgr0A_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
